@@ -21,7 +21,10 @@
             <a href="./christmas.php">Christmas Timer</a>
         </nav>
         <div class="form-section">
-
+            <form action="./apis/palindrome.php">
+                <input type="text" name="string" placeholder="Enter a word" required>
+                <button type="submit">Check</button>
+            </form>
         </div>
     </main>
 </body>
