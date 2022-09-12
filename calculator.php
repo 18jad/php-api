@@ -22,9 +22,19 @@
         </nav>
         <div class="form-section">
             <form action="./apis/calculate-operation.php" method="post">
+                <h3 style="color: #fefefe; text-align: center">This calculator will calculate the following operation:
+                    <br />
+                    <hr>
+                    <br />
+                    <span style="font-weight: 500; background-color: #0002; padding: 5px 20px; 
+                    border-radius: 10px; "> A^3 + B*C
+                        - A/B </span>
+                </h3>
+
                 <input type="number" name="a" placeholder="A" required>
                 <input type="number" name="b" placeholder="B" required>
                 <input type="number" name="c" placeholder="C" required>
+                <button type="submit">Calculate</button>
             </form>
         </div>
     </main>
