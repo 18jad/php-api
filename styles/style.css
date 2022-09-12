@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+body {
+  background: rgb(70, 140, 253);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+header {
+  background: #fefefe;
+  margin: 20px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: rgb(70, 140, 253);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+main nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #fefefe;
+  width: 400px;
+  height: 80vh;
+  border-radius: 10px;
+  text-align: center;
+  gap: 20px;
+}
+
+main nav a {
+  text-decoration: none;
+  font-size: 30px;
+  border: 3px solid rgb(70, 140, 253);
+  padding: 15px 0;
+  border-radius: 10px;
+  width: 90%;
+  color: rgb(70, 140, 253);
+  transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+main nav a:hover {
+  background: rgb(70, 140, 253);
+  color: #fefefe;
+}
+
+.form-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+.form-section h1 {
+  width: 60%;
+  text-align: center;
+  color: #fefefe;
+}
+
+.form-section form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-section form input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+  border: 3px solid white;
+  background: transparent;
+  outline: none;
+  font-size: 15px;
+  color: #fefefe;
+  transition: color 200ms ease-in-out, background 200ms ease-in-out;
+}
+.form-section form input:focus {
+  background: #fefefe;
+  color: rgb(70, 140, 253);
+}
+
+.form-section form input::-webkit-input-placeholder {
+  color: #fefefe;
+  font-size: 15px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+  border: 3px solid white;
+  outline: none;
+  font-size: 15px;
+  background: #fefefe;
+  font-weight: 600;
+  cursor: pointer;
+  color: rgb(70, 140, 253);
+}
