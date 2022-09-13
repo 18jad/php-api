@@ -22,7 +22,7 @@
         </nav>
         <div class="form-section">
             <form action="./apis/christmas-timer.php" method="get">
-                <input type="date" id="start" name="month" min="2022-09-13" max="2022-12-25" value="2022-09-13">
+                <input type="date" name="date" min="2022-09-13" max="2022-12-25" value="2022-09-13">
                 <button type="submit">GIVE ME HOW MANY DAYS LEFT FOR CHRISTMAS NOW!</button>
             </form>
         </div>
