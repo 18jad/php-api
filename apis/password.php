@@ -68,6 +68,7 @@ if (isset($_POST["password"])) {
 
     $result = [
         "password" => $password,
+        "length_strength" => $length_strength,
         "characters_strength" => $characters_strength,
         "strengthness_score" => $strengthness_score,
         "overall_strengthness" => $overall_strengthness,
