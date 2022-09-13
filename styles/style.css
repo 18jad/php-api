@@ -41,6 +41,7 @@ main nav {
   border-radius: 10px;
   text-align: center;
   gap: 20px;
+  box-shadow: 0 6px 9px #3334;
 }
 
 main nav a {
@@ -59,6 +60,11 @@ main nav a:hover {
   color: #fefefe;
 }
 
+main nav a.active {
+  background: rgb(70, 140, 253);
+  color: #fefefe;
+}
+
 .form-section {
   display: flex;
   align-items: center;
@@ -67,7 +73,6 @@ main nav a:hover {
   margin: auto;
 }
 .form-section h1 {
-  width: 60%;
   text-align: center;
   color: #fefefe;
 }
@@ -113,4 +118,11 @@ form button {
   font-weight: 600;
   cursor: pointer;
   color: rgb(70, 140, 253);
+  box-shadow: 0 5px 9px #3333;
+  transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+form button:hover {
+  background: rgb(70, 140, 253);
+  color: #fefefe;
 }

@@ -19,7 +19,7 @@
             <a href="./palindrome-checker.php">Palindrome Checker</a>
             <a href="./calculator.php">Calculator</a>
             <a href="./password-checker.php">Password Checker</a>
-            <a href="./christmas.php">Christmas Timer</a>
+            <a href="./christmas.php" class="active">Christmas Timer</a>
         </nav>
         <div class="form-section">
             <form action="./apis/christmas-timer.php" method="get">

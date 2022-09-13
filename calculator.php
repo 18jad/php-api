@@ -17,7 +17,7 @@
         <nav>
             <a href="./index.php">Home</a>
             <a href="./palindrome-checker.php">Palindrome Checker</a>
-            <a href="./calculator.php">Calculator</a>
+            <a href="./calculator.php" class="active">Calculator</a>
             <a href="./password-checker.php">Password Checker</a>
             <a href="./christmas.php">Christmas Timer</a>
         </nav>

@@ -15,14 +15,14 @@
     </header>
     <main>
         <nav>
-            <a href="./index.php">Home</a>
+            <a href="./index.php" class="active">Home</a>
             <a href="./palindrome-checker.php">Palindrome Checker</a>
             <a href="./calculator.php">Calculator</a>
             <a href="./password-checker.php">Password Checker</a>
             <a href="./christmas.php">Christmas Timer</a>
         </nav>
         <div class="form-section">
-            <h1>Welcome to Useless Tools, here you will find the most useless tools that you will never use.</h1>
+            <h1>Welcome to Useless Tools, here you will find <br />the most useless tools that you will never use :D</h1>
         </div>
     </main>
 </body>
