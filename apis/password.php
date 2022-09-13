@@ -39,7 +39,7 @@ if (isset($_POST["password"])) {
     }
 
     // check if password contains at least 1 special_characters
-    if (preg_match('/[\'^£$%&*()}{@#~?><>,|=_+¬-]/', $string)) {
+    if (preg_match('/[\'^£$%&*()}{@#~?><>,|=_+¬-]/', $password)) {
         $characters_strength["special_characters"] = "yes";
         $strengthness_score++;
     }
