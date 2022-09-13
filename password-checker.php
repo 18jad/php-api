@@ -21,7 +21,7 @@
             <a href="./christmas.php">Christmas Timer</a>
         </nav>
         <div class="form-section">
-            <form action="./apis/password.php">
+            <form action="./apis/password.php" method="post">
                 <input type="text" name="password" placeholder="Enter a password" required>
                 <button type="submit">Check strengthness</button>
             </form>
