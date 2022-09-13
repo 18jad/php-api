@@ -23,7 +23,7 @@
         <div class="form-section">
             <form action="./apis/palindrome.php">
                 <input type="text" name="string" placeholder="Enter a word" required>
-                <button type="submit">Check</button>
+                <button type="submit">Check palindrome</button>
             </form>
         </div>
     </main>
