@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/password.js" defer></script>
     <title>Password Checker</title>
 </head>
 
@@ -23,8 +24,10 @@
         </nav>
         <div class="form-section">
             <form action="./apis/password.php" method="post">
-                <input type="text" name="password" placeholder="Enter a password" required>
-                <button type="submit">Check strengthness</button>
+                <p id="passwordResult" class="result-check"> -</p>
+                <input type=" text" name="password" id="passwordInput" placeholder="Enter a password" required>
+                <button type="button" id="passwordBtn">Check strengthness</button>
+                <button type="submit">Check strengthness (JSON)</button>
             </form>
         </div>
     </main>

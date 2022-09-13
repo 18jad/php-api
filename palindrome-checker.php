@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/palindrome.js" defer></script>
     <title>Palindrome Checker</title>
 </head>
 
@@ -23,8 +24,10 @@
         </nav>
         <div class="form-section">
             <form action="./apis/palindrome.php">
-                <input type="text" name="string" placeholder="Enter a word" required>
-                <button type="submit">Check palindrome</button>
+                <p id="palindromeResult" class="result-check"> -</p>
+                <input type="text" name="string" id="palindromeInput" placeholder=" Enter a word" required>
+                <button type="button" id="palindromeBtn">Check palindrome</button>
+                <button type="submit">Check palindrome (JSON)</button>
             </form>
         </div>
     </main>

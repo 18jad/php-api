@@ -126,3 +126,12 @@ form button:hover {
   background: rgb(70, 140, 253);
   color: #fefefe;
 }
+
+.result-check {
+  color: #fefefe;
+  background: #0002;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 0;
+}

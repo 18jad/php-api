@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/calculator.js" defer></script>
     <title>Calculator</title>
 </head>
 
@@ -31,11 +32,12 @@
                     border-radius: 10px; "> A^3 + B*C
                         - A/B </span>
                 </h3>
-
-                <input type="number" name="a" placeholder="A" required>
-                <input type="number" name="b" placeholder="B" required>
-                <input type="number" name="c" placeholder="C" required>
-                <button type="submit">Calculate</button>
+                <input type="number" name="a" placeholder="A" id="a" required>
+                <input type="number" name="b" placeholder="B" id="b" required>
+                <input type="number" name="c" placeholder="C" id="c" required>
+                <button type="button" id="calculatorBtn">Calculate</button>
+                <button type="submit">Calculate (JSON)</button>
+                <p id="calculatorResult" class="result-check"> -</p>
             </form>
         </div>
     </main>
